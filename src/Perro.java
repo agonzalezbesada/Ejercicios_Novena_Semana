@@ -1,12 +1,16 @@
 public class Perro {
 
+    // Ejercicio3 1/2
     private String pelo;
     private String color;
     private int chip;
 
+    //Ejercicio5 1/2
     private int peso;
     private int altura;
 
+
+    //Ejercicio4 1/2 & Ejercicio5 2/2
     public String getPelo(){
         return pelo;
     }
@@ -56,15 +60,18 @@ public class Perro {
     }
 
 
+    //Ejercicio 6
     public String ladrar(int peso, int altura){
         String ladrido="";
 
-        if (peso<=10 && altura<=15){
+        if (peso<10 && altura<15){
             ladrido="Guau!";
 
-        }if (peso>10 && altura>15){
+        }if (peso==10 && altura==15){
             ladrido="GUAU!!";
 
+        }if (peso>10 && altura>15){
+            ladrido="GUUAUU!!!";
         }
 
         return ladrido;
