@@ -1,5 +1,13 @@
+/**
+ * Ejercicio Novena Semana: Main
+ * @author Adrián
+ * @version 1.0
+ */
 public class Main {
-
+    /**
+     * Realiza las llamadas
+     * @param args
+     */
     public static void main(String [] args){
 
         Perro perro1 = new Perro(); //Ejercicio2
@@ -46,16 +54,19 @@ public class Main {
         perro3.setPeso(15);
         perro3.setAltura(20);
 
-        String [] perros= new String[3]; //Ejercicio7 2/2
 
-        perros[0]=perro1.ladrar(perro1.getPeso(),perro1.getAltura());
-        perros[1]=perro2.ladrar(perro2.getPeso(),perro2.getAltura());
-        perros[2]=perro3.ladrar(perro3.getPeso(),perro3.getAltura());
+        Perro [] perros= new Perro[3]; //Ejercicio7 2/2
+
+        Perro.cosa();
+
+        perros[0]=perro1;
+        perros[1]=perro2;
+        perros[2]=perro3;
 
 
         //Ejercicio8
         for (int i = 0; i < perros.length;i++){
-            System.out.println("Posición "+i+" "+perros[i]);
+            System.out.println(perros[i].ladrar());
         }
     }
 }

@@ -59,9 +59,13 @@ public class Perro {
         this. altura = altura;
     }
 
+    public static void cosa() {
+
+    }
+
 
     //Ejercicio 6
-    public String ladrar(int peso, int altura){
+    public String ladrar(){
         String ladrido="";
 
         if (peso<10 && altura<15){
