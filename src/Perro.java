@@ -59,10 +59,6 @@ public class Perro {
         this. altura = altura;
     }
 
-    public static void cosa() {
-
-    }
-
 
     //Ejercicio 6
     public String ladrar(){

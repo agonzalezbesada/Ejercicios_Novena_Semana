@@ -57,8 +57,6 @@ public class Main {
 
         Perro [] perros= new Perro[3]; //Ejercicio7 2/2
 
-        Perro.cosa();
-
         perros[0]=perro1;
         perros[1]=perro2;
         perros[2]=perro3;
